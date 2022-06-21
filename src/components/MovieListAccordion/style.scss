@@ -1,0 +1,20 @@
+.movie-list-accordion {
+  flex-grow: 1;
+  height: 440px;
+  overflow: auto;
+}
+
+.movie-list-accordion__item {
+  .movie__info {
+    padding-left: 10px;
+
+    .movie__name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .movie__duration {
+      font-size: 14px;
+    }
+  }
+}

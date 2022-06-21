@@ -1,0 +1,36 @@
+.cinema-tab {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+  &__logo {
+    flex-shrink: 0;
+  }
+
+  &__info {
+    max-width: calc(100% - 48px);
+    padding-left: 12px;
+    text-align: left;
+    text-transform: none;
+    font-weight: 500;
+
+    .cinema-tab__name {
+      color: #000;
+      font-size: 14px;
+      @apply truncate;
+    }
+
+    .cinema-tab__address {
+      padding: 4px 0;
+      display: block;
+      font-size: 12px;
+      color: #949494;
+      @apply truncate;
+    }
+
+    .cinema-tab__detail {
+      color: #ff7539;
+    }
+  }
+}
